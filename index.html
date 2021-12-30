@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
+    
+    <title> Avaliação Diagnóstica de Desenvolvimento de Software - Parte 1 </title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <!-- <link rel="stylesheet" href="css/normalize.css"/> -->
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabeçalho">
+            <h1> Faça seu cadastro! </h1>
+        </header>
+    </div>
+
+    <div id="corpo">
+        <div id="formCadastro">
+            <form>
+                <br>
+                <fieldset class="dadosPessoais"><legend> Preencha seus dados pessoais </legend>
+                    <p><label for="idIdCliente"> ID do Cliente </label><input type="text" name="txtIdCliente" id="idIdCliente" maxlength="10" /> </p>
+                    <p><label for="idNome"> Nome do Cliente </label><input type="text" name="txtNome" id="idNome" maxlength="50" /> </p>
+                    <p><label for="idRG"> RG </label><input type="text" name="txtRG" id="idRG" maxlength="10" /> </p>
+                    <p><label for="idCpf"> CPF </label><input type="text" name="txtCpf" id="idCpf" maxlength="11" /> </p>
+                    <p><label for="idEndereco"> Endereço </label><input type="text" name="txtEndereco" id="idEndereco" /> </p>
+                </fieldset>
+                <br>
+                <fieldset class="dadosProduto"><legend> Preencha os dados do produto </legend>
+                    <p><label for="idProduto"> Produto </label><input type="text" name="txtProduto" id="idProduto" /> </p>
+                    <p><label for="idPreco"> Preço de venda </label><input type="text" name="txtPreco" id="idPreco" /> </p>
+                </fieldset>
+                <br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
